@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bhavish PK | Java Developer</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="nav-logo">Bhavish PK</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#internship">Internships</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="nav-toggle" onclick="toggleMenu()">☰</div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <header class="hero" id="home">
+    <div class="hero-content" data-aos="fade-down">
+      <img src="images/profile.jpg" alt="Bhavish PK" class="profile-pic" />
+      <h1>Bhavish PK</h1>
+      <p>Java Developer | MCA Student</p>
+      <div class="social-icons">
+        <a href="https://www.linkedin.com/in/bhavish-pk" target="_blank" title="LinkedIn">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="https://github.com/bpk18" target="_blank" title="GitHub">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+      <a class="btn" href="resume.pdf" download>Download Resume</a>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <section id="about" data-aos="fade-up">
+      <h2>About Me</h2>
+      <p>I’m a passionate programming enthusiast with a strong foundation in Java and full-stack web development. My goal is to contribute to impactful projects and continuously grow as a developer.</p>
+    </section>
+
+    <section id="skills" data-aos="fade-up">
+      <h2>Skills</h2>
+      <div class="skill">
+        <label>Java</label>
+        <div class="meter"><span style="width: 95%;">95</span></div>
+      </div>
+      <div class="skill">
+        <label>MySQL</label>
+        <div class="meter"><span style="width: 80%;">80</span></div>
+      </div>
+      <div class="skill">
+        <label>HTML & CSS</label>
+        <div class="meter"><span style="width: 85%;">85</span></div>
+      </div>
+      <div class="skill">
+        <label>JavaScript</label>
+        <div class="meter"><span style="width: 75%;">75</span></div>
+      </div>
+      <div class="skill">
+        <label>REST API</label>
+        <div class="meter"><span style="width: 70%;">70</span></div>
+      </div>
+    </section>
+
+    <section id="projects" data-aos="fade-up">
+      <h2>Projects</h2>
+      <div class="project-grid">
+        <div class="project-card">
+          <h3>🎬 Movie Review Website</h3>
+          <p>A responsive website using HTML, CSS, and JavaScript to browse and review movies with user-friendly UI.</p>
+        </div>
+        <div class="project-card">
+          <h3>🤟 Sign Language Recognition</h3>
+          <p>Real-time Python-based application using OpenCV and ML to interpret sign language gestures into text.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="internship" data-aos="fade-up">
+      <h2>Internships</h2>
+      <h3>CodTech IT Solution (Dec 2024 - Jan 2025)</h3>
+      <p>Worked on Java Swing/AWT GUI applications with form validation and event handling.</p>
+      <h3>JSpiders (Jun 2024 – Present)</h3>
+      <p>Trained in Java Full Stack, REST APIs, and dynamic web app development using JSP/Servlets.</p>
+    </section>
+
+    <section id="education" data-aos="fade-up">
+      <h2>Education</h2>
+      <p><strong>MCA</strong> - Shree Devi Institute Of Technology (2023 - 2025) | CGPA: 8.8</p>
+      <p><strong>BCA</strong> - Yenepoya Institute of Arts, Science and Management (2020 - 2023) | CGPA: 7.0</p>
+    </section>
+
+    <section id="contact" data-aos="fade-up">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:bhavishpk1805@gmail.com">bhavishpk1805@gmail.com</a></p>
+      <p>Phone: <a href="tel:+918197073284">+91 81970 73284</a></p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/bhavish-pk" target="_blank">linkedin.com/in/bhavish-pk</a></p>
+      <p>GitHub: <a href="https://github.com/bpk18" target="_blank">github.com/bpk18</a></p>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Bhavish PK</p>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init();
+    function toggleMenu() {
+      const links = document.querySelector('.nav-links');
+      links.classList.toggle('nav-active');
+    }
+  </script>
+  <script src="script.js"></script>
+</body>
+</html>
